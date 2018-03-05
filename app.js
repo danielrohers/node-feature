@@ -17,8 +17,6 @@ const { loggerFormat, port } = env;
 
 const app = express();
 
-console.log(path.join(__dirname, 'public/stylesheets'))
-
 app.use(logger(loggerFormat));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
