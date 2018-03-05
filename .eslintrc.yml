@@ -1,0 +1,6 @@
+extends: airbnb-base
+
+rules:
+  import/no-dynamic-require: off
+  global-require: off
+  no-throw-literal: off

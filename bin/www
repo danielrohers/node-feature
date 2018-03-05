@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const log = require('winston');
+
+const cluster = require('cluster');
+
+const cpuCount = require('os').cpus().length;
+
+cluster.setupMaster({ exec: 'app.js' });
+
+for (let i = 0; i < cpuCount; i++) cluster.fork();
+
+cluster.on('exit', (worker) => {
+  log.info(`Worker ${ worker.id } died.`);
+  cluster.fork();
+});
