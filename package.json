@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "imagemin": "imagemin src/assets/images/* --out-dir=public/images",
     "eslint": "node_modules/.bin/eslint . --ext .js",
     "babel": "babel src/assets/javascripts --out-dir public/javascripts",
-    "start": "npm run babel && node ./bin/www",
-    "dev": "nodemon -exec yarn babel"
+    "build": "npm run imagemin && npm run eslint && npm run babel",
+    "start": "npm run imagemin && npm run babel && node ./bin/www",
+    "dev": "nodemon"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -17,6 +19,7 @@
     "debug": "~2.6.9",
     "dotenv": "^5.0.0",
     "express": "~4.15.5",
+    "imagemin-cli": "^3.0.0",
     "mongoose": "^5.0.7",
     "morgan": "~1.9.0",
     "node-sass": "^4.7.2",

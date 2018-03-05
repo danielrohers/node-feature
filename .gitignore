@@ -61,5 +61,4 @@ typings/
 .next
 .config
 
-public/javascripts
-public/stylesheets
+public

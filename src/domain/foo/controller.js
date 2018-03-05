@@ -3,7 +3,7 @@ const FooService = require('./service');
 module.exports = {
 
   renderIndex(req, res) {
-    res.render('home-index', { title: 'Express Foo' });
+    res.render('foo-index', { title: 'Express Foo' });
   },
 
   list(req, res, next) {

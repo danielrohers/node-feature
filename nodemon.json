@@ -1,15 +1,21 @@
 {
   "verbose": true,
   "ignore": [
+    ".git",
+    ".config",
+    ".npm",
     "node_modules",
     "public",
     "**.pug"
   ],
+  "events": {
+    "restart": "npm run build",
+    "start": "npm run build"
+  },
   "execMap": {
     "js": "node ./bin/www"
   },
   "env": {
     "NODE_ENV": "development"
-  },
-  "ext": "js json"
+  }
 }

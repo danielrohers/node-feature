@@ -49,8 +49,8 @@ Node application with feature-based architecture.
 |   |   |-- domain
 |   |   |   |-- foo
 |   |   |   |   |-- views
-|   |   |   |   |   |-- home-index.pug
-|   |   |   |   |   |-- home-list.pug
+|   |   |   |   |   |-- foo-index.pug
+|   |   |   |   |   |-- foo-list.pug
 |   |   |   |   |-- controller.js
 |   |   |   |   |-- model.js
 |   |   |   |   |-- route.js
