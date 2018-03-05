@@ -2,7 +2,7 @@
 
 Node application with feature-based architecture.
 
-## Stack
+## Technologies
 * [Docker](https://www.docker.com)
 * [Docker Compose](https://docs.docker.com/compose)
 * [Dotenv](https://www.npmjs.com/package/dotenv)
@@ -41,12 +41,12 @@ Node application with feature-based architecture.
 |   |   |   |-- images
 |   |   |   |-- javascripts
 |   |   |   |-- scss
-|   |   |-- config
+|   |   |-- config  <-- Configuration files
 |   |   |   |-- database.js
 |   |   |   |-- env.js
 |   |   |   |-- routes.js
 |   |   |   |-- views.js
-|   |   |-- domain
+|   |   |-- domain  <-- Domains/features files
 |   |   |   |-- foo
 |   |   |   |   |-- views
 |   |   |   |   |   |-- foo-index.pug
@@ -62,7 +62,7 @@ Node application with feature-based architecture.
 |   |-- .babelrc
 |   |-- .dockerignore
 |   |-- .editorconfig <-- Indentation  styles - http://editorconfig.org
-|   |-- .env.example
+|   |-- .env.example  <-- Example .env file
 |   |-- .eslintignore
 |   |-- .eslintrc.yml
 |   |-- .gitignore
