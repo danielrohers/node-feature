@@ -1,5 +1,8 @@
 # node-feature
 
+[![Dependency Status](https://david-dm.org/danielrohers/node-feature.svg)](https://david-dm.org/danielrohers/node-feature)
+[![devDependency Status](https://david-dm.org/danielrohers/node-feature/dev-status.svg)](https://david-dm.org/danielrohers/node-feature#info=devDependencies)
+
 Node application with feature-based architecture.
 
 ## Technologies
