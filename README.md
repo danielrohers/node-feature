@@ -1,5 +1,6 @@
 # node-feature
 
+[![CodeFactor](https://www.codefactor.io/repository/github/danielrohers/node-feature/badge)](https://www.codefactor.io/repository/github/danielrohers/node-feature)
 [![Dependency Status](https://david-dm.org/danielrohers/node-feature.svg)](https://david-dm.org/danielrohers/node-feature)
 [![devDependency Status](https://david-dm.org/danielrohers/node-feature/dev-status.svg)](https://david-dm.org/danielrohers/node-feature#info=devDependencies)
 
